@@ -1,0 +1,93 @@
+/*通用*/
+/* .container {
+  max-width: 856px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+} */
+
+.nav a {
+  display: block;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://estelazg.github.io/week1/images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 152px 0;
+}
+
+@media (max-width: 576px) {
+  .header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 87px 0;
+  }
+}
+
+.h1en {
+  font-size: 28px;
+}
+
+.quote {
+  text-align: center;
+  border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+  .quote {
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.card {
+  margin-left: -110px;
+  margin-right: -110px;
+  max-width: 1076px;
+}
+.card img {
+  width: 100%;
+}
+
+.section-line {
+  border-bottom: 1px solid var(--neutral-300);
+}
+.history ol {
+  margin-left: 20px;
+}
+
+.history li {
+  list-style: disc;
+  margin-bottom: 12px;
+}
+
+.history span {
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid var(--neutral-900);
+}
+
+.idea li {
+  border-left: 3px solid var(--neutral-300);
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+
+.story a {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  color: var(--primary-400);
+}

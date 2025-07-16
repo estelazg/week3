@@ -1,0 +1,12 @@
+.products-list .active {
+  color: var(--primary-400);
+}
+.page-item .btn {
+  padding: 8px 15px;
+}
+.page-item .active {
+  background-color: var(--primary-300);
+}
+.banner.btn {
+  color: var(--neutral-0);
+}
