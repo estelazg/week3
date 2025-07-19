@@ -27,8 +27,8 @@
         ><i class="bi bi-person"></i
       ></a>
     </nav>
-    <main class="container mb-40">
-      <div class="row mb-64">
+    <main class="container">
+      <div class="row mb-64 mb-md-0">
         <div class="col-7 col-md-4">
           <div class="product-row">
             <div class="product-col mb-8 mb-md-24">
@@ -191,8 +191,8 @@
       </div>
       <div class="py-48 py-md-40">
         <h2 class="h4 h5-md mb-16 mb-md-16">你可能也喜歡...</h2>
-        <div class="row">
-          <div class="col-3 col-md-3">
+        <div class="row d-md-no">
+          <div class="col-3">
             <img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-2.png"
               alt=""
@@ -204,7 +204,7 @@
           <div class="col-3">
             <img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-3.png"
-              alt=""
+              alt="Melty Kiss"
               class="mb-12"
             />
             <h4 class="h6 mb-4">Melty Kiss</h4>
@@ -213,7 +213,7 @@
           <div class="col-3">
             <img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-4.png"
-              alt=""
+              alt="BOOMBLOK"
               class="mb-12"
             />
             <h4 class="h6 mb-4">BOOMBLOK</h4>
@@ -222,7 +222,7 @@
           <div class="col-3">
             <img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-7.png"
-              alt=""
+              alt="Sugar Snap"
               class="mb-12"
             />
             <h4 class="h6 mb-4">Sugar Snap</h4>
@@ -230,8 +230,55 @@
           </div>
         </div>
       </div>
+
+      <swiper-container class="mySwiper mb-40 d-no d-md-block col-md-4">
+        <swiper-slide>
+          <div class="mr-16">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-2.png"
+              alt="VM001"
+              class="mb-12"
+            />
+            <h4 class="h6 mb-4">VM001</h4>
+            <p>NT$2,600</p>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div class="mr-16">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-3.png"
+              alt="Melty Kiss"
+              class="mb-12"
+            />
+            <h4 class="h6 mb-4">Melty Kiss</h4>
+            <p>NT$4,000</p>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div class="mr-16">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-4.png"
+              alt="BOOMBLOK"
+              class="mb-12"
+            />
+            <h4 class="h6 mb-4">BOOMBLOK</h4>
+            <p>NT$3,200</p>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div class="mr-16">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-7.png"
+              alt="Sugar Snap"
+              class="mb-12"
+            />
+            <h4 class="h6 mb-4">Sugar Snap</h4>
+            <p>NT$3,200</p>
+          </div></swiper-slide
+        >
+      </swiper-container>
     </main>
-    <div class="d-flex align-center justify-center bg-primary-200 py-24 mb-64">
+    <div class="d-flex align-center justify-center bg-primary-200 py-24">
       <p class="h4 mr-24">加入會員取得 9 折優惠</p>
       <button type="button" class="btn btn-dark">馬上註冊</button>
     </div>
@@ -259,5 +306,6 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   </body>
 </html>

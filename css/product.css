@@ -9,6 +9,7 @@
   padding-left: 4px;
   padding-right: 4px;
 }
+
 @media (max-width: 767px) {
   .product-col {
     width: 100%;
@@ -66,4 +67,23 @@
 }
 .product-info-item {
   border-bottom: 1px solid var(--neutral-300);
+}
+/*swiper*/
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  background: #ffffff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
